@@ -5,6 +5,7 @@
 <br />
 
 ## 사용 방법
+
 ```bash
 git clone https://github.com/happyhye/vite-react.git
 ```
@@ -23,6 +24,9 @@ pnpm dev
 <br />
 
 ## 폴더 구조
+
+![tree](https://github.com/user-attachments/assets/e07aaaee-c279-436f-8118-b9a50c633342)
+
 - public
   - 정적요소 분리
 - src
@@ -31,6 +35,7 @@ pnpm dev
 <br />
 
 ## 설치한 패키지
+
 - vite
 - react
 - react-dom
