@@ -25,12 +25,14 @@ pnpm dev
 
 ## 폴더 구조
 
-![tree](https://github.com/user-attachments/assets/e07aaaee-c279-436f-8118-b9a50c633342)
+![tree](https://github.com/user-attachments/assets/91950b83-7b64-40b8-af51-fcd35da8cc65)
 
 - public
   - 정적요소 분리
 - src
   - 컴포넌트, 스타일링(css) 코드 분리
+- vite-scaffold
+  - `degit` 명령을 사용하여 vite-react 프로젝트를 스캐폴딩
 
 <br />
 
@@ -47,3 +49,11 @@ pnpm dev
 - @types/react
 - @types/react-dom
 - @vitejs/plugin-react
+
+<br />
+
+## 느낀 점
+
+하나하나 직접 구성하는 재미가 있었습니다.
+
+수업 들을 땐 따라가기 바빴는데 복기할 수 있어 좋았습니다.
