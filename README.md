@@ -29,6 +29,8 @@ pnpm dev
 
 ## 폴더 구조
 
+![tree](https://github.com/user-attachments/assets/0ba99331-1089-4d79-ae25-2bfb0c95aa34)
+
 - public
   - 정적요소 분리
 - src
