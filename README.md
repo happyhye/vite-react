@@ -1,4 +1,4 @@
-# Vite 매뉴얼 스캐폴딩
+# Vite 매뉴얼 환경 구성
 
 직접 Vite를 설치해 학습 환경을 재구성합니다.
 
@@ -8,8 +8,12 @@
 
 ```bash
 git clone https://github.com/happyhye/vite-react.git
+
+# 또는
+
+degit happyhye/vite-react <프로젝트명>
 ```
-1. 리포지토리 clone
+1. 리포지토리 clone 또는 degit
 
 ```bash
 pnpm i
@@ -25,18 +29,14 @@ pnpm dev
 
 ## 폴더 구조
 
-![tree](https://github.com/user-attachments/assets/91950b83-7b64-40b8-af51-fcd35da8cc65)
-
 - public
   - 정적요소 분리
 - src
   - 컴포넌트, 스타일링(css) 코드 분리
-- vite-scaffold
-  - `degit` 명령을 사용하여 vite-react 프로젝트를 스캐폴딩
 
 <br />
 
-## 설치한 패키지
+## 설치한 패키지 (2024.08.05 update)
 
 - vite
 - react
@@ -45,6 +45,7 @@ pnpm dev
 - eslint-plugin-react
 - eslint-plugin-react-hooks
 - eslint-plugin-react-refresh
+- prop-types
 - @types/node
 - @types/react
 - @types/react-dom
